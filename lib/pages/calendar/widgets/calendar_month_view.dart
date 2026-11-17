@@ -12,7 +12,7 @@ String calendarCompactAmount(double amount, String sign) => amount >= 10000
     ? '$sign${(amount / 10000).toStringAsFixed(1)}w'
     : amount >= 1000
         ? '$sign${(amount / 1000).toStringAsFixed(1)}k'
-        : '$sign${amount.toInt()}';
+        : '$sign${amount % 1 == 0 ? amount.toInt() : amount.toStringAsFixed(2)}';
 
 class CalendarMonthView extends StatelessWidget {
   const CalendarMonthView(
