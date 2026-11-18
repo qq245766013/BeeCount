@@ -312,7 +312,7 @@
   "@searchBatchModeWithCount": {
     "placeholders": {
       "selected": {
-        "type": "int"
+        "type": "intObject"
       },
       "total": {
         "type": "int"
