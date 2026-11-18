@@ -326,7 +326,7 @@
   "@searchSelectedCount": {
     "placeholders": {
       "count": {
-        "type": "int"
+        "type": "Object"
       }
     }
   },
