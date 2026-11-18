@@ -23,6 +23,7 @@ jobs:
       - run: flutter pub get
       - run: flutter build apk --debug
       - uses: actions/upload-artifact@v4
+          if: always()
         with:
           name: bee-count-debug-apk
           path: "**/12.apk"
