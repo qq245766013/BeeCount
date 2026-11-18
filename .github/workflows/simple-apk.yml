@@ -18,7 +18,7 @@ jobs:
           channel: stable
           flutter-version: 3.27.4
       - run: flutter pub get
-      - run: flutter build apk --release --flavor dev
+      - run: flutter build apk --release --flavor prod
       - name: Find APK
         if: always()
         run: find /home/runner/work -name "*.apk"
