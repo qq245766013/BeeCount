@@ -2961,7 +2961,7 @@
   "calendarTitle": "日历",
   "calendarToday": "今天",
   "calendarNoTransactions": "当天无交易",
-  "calendarAddTransaction": "在该日记账",
+  "calendarAddTransaction": "在该日新建",
   "calendarAddTransactionTooltip": "添加该日记账",
   "commonUncategorized": "未分类",
   "commonSaved": "已保存",
